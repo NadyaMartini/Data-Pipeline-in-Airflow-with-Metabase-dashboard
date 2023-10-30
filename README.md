@@ -1,5 +1,11 @@
 # Data-Pipeline-in-Airflow-with-Metabase-dashboard
-This project focuses on data extraction, transformation, and loading (ETL) processes in an Apache Airflow environment. It consists of two separate DAGs: ETL_stg and ETL_dwh. In this project, mock data was used for testing.
+This project focuses on data extraction, transformation, and loading (ETL) processes in an Apache Airflow environment. It consists of two separate DAGs: ETL_stg and ETL_dwh.
+Technologies and Tools: 
+Apache Airflow,
+AWS S3,
+Vertica,
+Metabase.
+
 Here's an overview of each DAG:
 
 ETL_stg DAG:
@@ -10,3 +16,7 @@ This process is executed in a loop for each of the 10 batches. This DAG also han
 
 ETL_dwh DAG:
 This dag populates global_metrics_temp table in vertica with aggregated data. This table is directly linked to Metabase dashboard. 
+
+Please note that mock data was used for testing purposes.
+
+
