@@ -1,5 +1,6 @@
 # Data-Pipeline-in-Airflow-with-Metabase-dashboard
-This project focuses on data extraction, transformation, and loading (ETL) processes in an Apache Airflow environment. It consists of two separate DAGs: ETL_stg and ETL_dwh.  Here's an overview of each DAG:
+This project focuses on data extraction, transformation, and loading (ETL) processes in an Apache Airflow environment. It consists of two separate DAGs: ETL_stg and ETL_dwh. In this project, mock data was used for testing.
+Here's an overview of each DAG:
 
 ETL_stg DAG:
 
